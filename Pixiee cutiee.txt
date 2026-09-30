@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Marwa shehzadi! 🎀</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fff7f7;
+  color: #704d58;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 20px;
+  background:
+    radial-gradient(circle at 15% 15%, #ffe1e9, transparent 35%),
+    radial-gradient(circle at 85% 80%, #fce4ee, transparent 35%),
+    #fff7f7;
+  position: relative;
+  overflow: hidden;
+}
+
+.eyebrow {
+  letter-spacing: 4px;
+  font-size: 11px;
+  color: #b77a91;
+  text-transform: uppercase;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: clamp(42px, 10vw, 76px);
+  line-height: 1.1;
+  margin: 18px 0;
+  color: #a95f7a;
+}
+
+h1 em {
+  color: #d78ca5;
+}
+
+.subtitle {
+  max-width: 440px;
+  line-height: 1.9;
+  font-size: 14px;
+  color: #896c77;
+}
+
+button {
+  background: #c77e98;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font: inherit;
+  cursor: pointer;
+  transition: .25s;
+  box-shadow: 0 5px 15px #dca6b655;
+}
+
+button:hover {
+  background: #aa617e;
+  transform: translateY(-2px);
+}
+
+.hero button { margin-top: 22px; }
+
+.flower {
+  font-size: 30px;
+  margin: 12px;
+}
+
+.float {
+  position: absolute;
+  animation: drift 5s ease-in-out infinite;
+  opacity: .7;
+  pointer-events: none;
+}
+
+.f1 { top: 12%; left: 9%; }
+.f2 { top: 24%; right: 10%; animation-delay: 1s; }
+.f3 { bottom: 15%; left: 12%; animation-delay: 2s; }
+.f4 { bottom: 20%; right: 12%; animation-delay: 3s; }
+
+@keyframes drift {
+  0%,100% { transform: translateY(0) rotate(-8deg); }
+  50% { transform: translateY(-17px) rotate(8deg); }
+}
+
+section {
+  padding: 75px 20px;
+}
+
+.section-title {
+  font-size: 38px;
+  color: #a95f7a;
+  margin: 12px 0;
+}
+
+.section-desc {
+  font-size: 13px;
+  color: #987b85;
+  line-height: 1.8;
+}
+
+.gallery {
+  max-width: 900px;
+  margin: 35px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.photo {
+  background: white;
+  padding: 10px 10px 20px;
+  box-shadow: 0 7px 22px #b47d8a20;
+  transform: rotate(-2deg);
+  transition: .3s;
+}
+
+.photo:nth-child(2) { transform: rotate(2deg); }
+.photo:nth-child(3) { transform: rotate(-1deg); }
+
+.photo:hover { transform: rotate(0) translateY(-5px); }
+
+.photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  background: #f8e1e8;
+  display: block;
+}
+
+.caption {
+  margin-top: 13px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 15px;
+  color: #986579;
+}
+
+.letter-section {
+  background: #fcebf0;
+}
+
+.envelope {
+  max-width: 490px;
+  margin: 30px auto 0;
+  padding: 32px 22px;
+  background: #fffafa;
+  border: 1px solid #f2d4df;
+  border-radius: 10px;
+  box-shadow: 0 10px 35px #b97e8d20;
+}
+
+.seal {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.letter {
+  display: none;
+  text-align: left;
+  margin-top: 25px;
+  line-height: 2;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: #785763;
+  white-space: pre-line;
+}
+
+.letter.show { display: block; }
+
+.signature {
+  text-align: right;
+  color: #b66e8a;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.footer {
+  padding: 30px 15px;
+  font-size: 12px;
+  color: #a7838f;
+}
+
+@media(max-width:600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .photo:last-child {
+    grid-column: 1 / -1;
+    width: 70%;
+    justify-self: center;
+  }
+  section { padding: 60px 15px; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+  <span class="float f1">🌷</span>
+  <span class="float f2">🎀</span>
+  <span class="float f3">♡</span>
+  <span class="float f4">🌸</span>
+
+  <div class="eyebrow">A little celebration of you</div>
+  <h1>Happy Birthday,<br><em>Bestie!</em></h1>
+  <div class="flower">🧸 💗 🕯️</div>
+  <p class="subtitle">
+    To the girl who makes ordinary days
+    feel a little more special.
+    Here's a tiny website made just for you.
+  </p>
+  <button onclick="document.getElementById('memories').scrollIntoView({behavior:'smooth'})">
+    A little surprise ↓
+  </button>
+</header>
+
+<section id="memories">
+  <div class="eyebrow">Little moments, big memories</div>
+  <h2 class="section-title">Our memories 📸</h2>
+  <p class="section-desc">
+    A few little snapshots worth keeping forever.
+  </p>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="photo1.jpg" alt="Our memory one">
+      <div class="caption">A favorite day 🌷</div>
+    </div>
+    <div class="photo">
+      <img src="photo2.jpg" alt="Our memory two">
+      <div class="caption">Silly moments 🎀</div>
+    </div>
+    <div class="photo">
+      <img src="photo3.jpg" alt="Our memory three">
+      <div class="caption">Always smiling 💗</div>
+    </div>
+  </div>
+</section>
+
+<section class="letter-section">
+  <div class="eyebrow">Something from my heart</div>
+  <h2 class="section-title">A little letter 💌</h2>
+  <p class="section-desc">
+    There's something I wanted you to read today.
+  </p>
+
+  <div class="envelope">
+    <div class="seal">💌</div>
+    <h2>For my favorite Cutie</h2>
+    <p class="section-desc">
+      One little letter, made especially for you.
+    </p>
+    <button onclick="openLetter()" id="openBtn">
+      Open your letter ♡
+    </button>
+
+    <div class="letter" id="letter">
+      Dear Pixiee,
+
+      Happy Birthday!! 🎂💗
+
+      I hope your day is full of happiness,
+      laughter, beautiful surprises and
+      all the things you love.
+
+      Thank you for being such a wonderful
+      friend, for all the laughs, the random
+      conversations and all our memories.
+
+      I hope this new chapter brings you
+      countless reasons to smile, new
+      adventures and dreams coming true.
+
+      I wish i can celebrate more birthday's 
+      with you, and in real with you
+
+      Never forget how appreciated you are
+      and how much your friendship means
+      to me.
+      
+      I wish this i can celebrate more 
+      18 October with you and may your 
+      year get very peaceful happy 
+
+      Happy Birthday once again!! 🌷🎀
+
+     Thanks for every moment you spend with me
+
+      <div class="signature">
+        With lots of love,<br>
+        Your bestie ♡
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="footer">
+  Made with ♡, just for you 🎀
+  <br><br>
+  Happy Birthday 🌸
+</div>
+
+<script>
+function openLetter() {
+  const letter = document.getElementById('letter');
+  const button = document.getElementById('openBtn');
+
+  letter.classList.toggle('show');
+
+  button.textContent = letter.classList.contains('show')
+    ? 'Close letter ♡'
+    : 'Open your letter ♡';
+}
+</script>
+
+</body>
+</html>
